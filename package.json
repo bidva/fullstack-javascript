@@ -1,0 +1,25 @@
+{
+  "name": "fullstack-javascript",
+  "version": "1.0.0",
+  "description": "full stack app by mongodb, node.js and react.js Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bidva/fullstack-javascript.git"
+  },
+  "author": "amir bidva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bidva/fullstack-javascript/issues"
+  },
+  "homepage": "https://github.com/bidva/fullstack-javascript#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
