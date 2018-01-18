@@ -19,8 +19,13 @@
   },
   "homepage": "https://github.com/bidva/fullstack-javascript#readme",
   "dependencies": {
+    "axios": "^0.17.1",
+    "ejs": "^2.5.7",
     "express": "^4.16.2",
+    "json-loader": "^0.5.7",
     "mongodb": "^3.0.1",
+    "node-sass-middleware": "^0.11.0",
+    "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
@@ -34,6 +39,7 @@
     "eslint": "^4.15.0",
     "eslint-plugin-react": "^7.5.1",
     "nodemon": "^1.14.11",
+    "react-autocomplete-cli": "0.0.3",
     "webpack": "^3.10.0"
   }
 }
