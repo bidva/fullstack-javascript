@@ -6,7 +6,9 @@
   "scripts": {
     "start": "nodemon --exec babel-node server.js --ignore public/",
     "dev": "webpack -wd",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,7 +29,8 @@
     "node-sass-middleware": "^0.11.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -41,5 +44,6 @@
     "nodemon": "^1.14.11",
     "react-autocomplete-cli": "0.0.3",
     "webpack": "^3.10.0"
-  }
+  },
+  "snyk": true
 }
