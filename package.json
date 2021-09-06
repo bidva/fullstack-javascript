@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/bidva/fullstack-javascript#readme",
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.3",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "json-loader": "^0.5.7",
