@@ -19,15 +19,15 @@
   },
   "homepage": "https://github.com/bidva/fullstack-javascript#readme",
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "json-loader": "^0.5.7",
-    "mongodb": "^3.0.1",
-    "node-sass-middleware": "^0.11.0",
+    "mongodb": "^3.1.3",
+    "node-sass-middleware": "^1.1.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
